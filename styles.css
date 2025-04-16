@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-family: "Winky Rough", sans-serif;
     font-size: 18px;
     background-color: var(--fcc-blue);
     color: var(--light-grey);
@@ -18,6 +18,8 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -30,7 +32,9 @@ h1,
 .output {
     margin: 20px auto;
 }
-
+fieldset{
+    border-radius: 5px;
+}
 label,
 legend {
     font-weight: bold;
@@ -46,6 +50,10 @@ button {
     text-decoration: none;
     background-color: var(--light-yellow);
     border: 2px solid var(--dark-yellow);
+    border-radius: 5px;
+    margin-left: 10px;
+    font-family: "Winky Rough", sans-serif;
+
 }
 
 button,
@@ -53,6 +61,9 @@ input,
 select {
     min-height: 24px;
     color: var(--dark-blue);
+    font-family: "Winky Rough", sans-serif;
+
+    
 }
 
 fieldset,
@@ -60,7 +71,7 @@ label,
 button,
 input,
 select {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .output {
@@ -85,3 +96,14 @@ select {
 .deficit {
     color: var(--light-green);
 }
+
+#budget{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
